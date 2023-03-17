@@ -1,0 +1,1075 @@
+//  welcomescreen section-----------------------------------------------------------
+
+.welcomescreen {
+    background-color: #F8F8F8;
+    padding: 144px 0 70px;
+}
+
+.welcomescreen__content {
+    padding-right: 10%;
+}
+
+.welcomescreen__content-box {
+    margin-bottom: 50px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 140%;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        color: #222222;
+
+        span {
+            color: #735527;
+        }
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 150%;
+        color: #222222;
+
+        &+p {
+            margin-top: 15px;
+        }
+
+        span {
+            color: #EC5120;
+        }
+    }
+}
+
+
+.welcomescreen__video {
+    width: 100%;
+    text-align: right;
+
+    iframe {
+        max-width: 700px;
+        width: 100%;
+        height: 420px;
+        background-size: cover;
+    }
+}
+
+// advantages section -------------------------------------------------------
+
+.advantages {
+    background-color: #F8F8F8;
+    padding: 60px 0;
+}
+
+.advantages__item {
+    height: 241px;
+    background: #C6A46F;
+    box-shadow: 0px 8px 25px -6px rgba(99, 77, 43, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    padding: 30px 20px;
+
+    img {
+        width: 60px;
+        background-size: cover;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+// whatis section --------------------------------------------------------------
+.whatis {
+    padding: 110px 0;
+
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+.whatis__img {
+    img {
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+.whatis__content {
+    width: 100%;
+    padding-right: 5%;
+
+    h2 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #222222;
+        margin-bottom: 40px;
+
+        span {
+            color: #735527;
+        }
+    }
+
+    h3,
+    h4 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        color: #222222;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 150%;
+        margin-bottom: 40px;
+        color: #222222;
+    }
+}
+
+// treatment section --------------------------------------------------------------
+
+.treatment {
+    background: linear-gradient(103.25deg, #735527 8.71%, #9A7E53 89.64%), linear-gradient(0deg, #C6A46F, #C6A46F), #F4F4F4;
+    padding: 110px 0;
+}
+
+.treatment__content {
+    margin-bottom: 50px;
+
+    h2 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 140%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+
+        &+p {
+            margin-top: 10px;
+        }
+    }
+}
+
+// info section --------------------------------------------------------------
+.info {
+    background-color: #f8f8f8;
+    padding: 110px 0 210px;
+
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+.info__img {
+    width: 100%;
+
+    img {
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+.info__content {
+    width: 100%;
+    padding-left: 7%;
+
+    h2 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #222222;
+        margin-bottom: 40px;
+
+        &:not(:first-child) {
+            margin-top: 60px;
+        }
+
+        span {
+            color: #735527;
+        }
+    }
+
+    h3,
+    h4 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        color: #222222;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 150%;
+        color: #222222;
+        margin-bottom: 10px;
+    }
+}
+
+.ebook {
+    padding: 110px 0 0;
+    background-image: url(../img/ebook_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ebook__form {
+    width: 100%;
+
+    h2 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 140%;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+        color: #FFFFFF;
+    }
+
+    form {
+        max-width: 460px;
+        width: 100%;
+
+        input {
+            display: block;
+            width: 100%;
+            margin-bottom: 30px;
+            padding: 18px 14px;
+            border: none;
+            border-bottom: 1.5px solid #D1D1D1;
+            font-size: 18px;
+            line-height: 150%;
+            color: #FFFFFF;
+            background-color: transparent;
+
+            &::placeholder {
+                font-size: 18px;
+                line-height: 150%;
+                color: #FFFFFF;
+                transition: .3s;
+            }
+
+            &:focus::placeholder {
+                opacity: 0;
+            }
+        }
+
+        button {
+            margin-top: 50;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 150%;
+            text-transform: uppercase;
+            width: 100%;
+            color: #FFFFFF;
+            height: 59px;
+            border: 2px solid #FFFFFF;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+            transition: .3s;
+            position: relative;
+
+            &:after {
+                content: '';
+                position: absolute;
+                width: 33px;
+                height: 16px;
+                background-image: url(../img/svg/Arrow_Left_XL.svg);
+                right: 15%;
+                top: 50%;
+                transform: translateY(-50%);
+                transition: .4s;
+            }
+
+            &:hover {
+                filter: brightness(90%);
+
+                &:after {
+                    right: 10%;
+                }
+            }
+        }
+    }
+}
+
+.ebook__img {
+    width: 100%;
+    margin-top: -220px;
+
+    img {
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+
+//  testimonials section --------------------------------------------------
+
+.testimonials {
+    background: #F8F8F8;
+    padding: 110px 0;
+}
+
+.testimonials__title h2 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: #222222;
+}
+
+.testimonials__slider {
+    margin-bottom: 40px;
+}
+
+.testimonials__item {
+    max-width: 460px;
+    margin: 0 auto;
+    height: 496px;
+    padding: 30px;
+    background: #F4F4F4;
+
+    &-content p{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+    }
+}
+
+.testimonials__item-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.testimonials__item-name p {
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.testimonials__item-rate {
+    display: flex;
+    margin-left: 30px;
+
+    img {
+        height: 18px;
+        width: 18px;
+        background-size: cover;
+
+        &+img {
+            margin-left: 4px;
+        }
+    }
+}
+
+.testimonials__slider-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials__slider-arrow {
+    cursor: pointer;
+
+    &+.testimonials__slider-arrow {
+        margin-left: 60px;
+    }
+}
+
+// consultation section ---------------------------------------------------
+
+.consultation {
+    padding: 110px 0 210px;
+}
+
+.consultation__title h2 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: #222222;
+
+    span {
+        color: #735527;
+    }
+}
+
+.consultation__content {
+    max-width: 550px;
+    width: 100%;
+
+    h3,
+    h4,
+    h5 {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 130%;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        color: #735527;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 150%;
+        color: #222222;
+
+        &+p {
+            margin-top: 10px;
+        }
+
+        &:last-of-type {
+            margin-bottom: 30px;
+        }
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #735527;
+    }
+}
+
+.consultation__form {
+    margin: 0 0 0 auto;
+    max-width: 503px;
+    width: 100%;
+
+    form {
+        width: 100%;
+
+        input {
+            display: block;
+            width: 100%;
+            margin-bottom: 30px;
+            padding: 18px 14px;
+            border: none;
+            border-bottom: 1.5px solid #D1D1D1;
+            font-size: 18px;
+            line-height: 150%;
+            color: #424242;
+            background-color: transparent;
+
+            &::placeholder {
+                font-size: 18px;
+                line-height: 150%;
+                color: #424242;
+                transition: .3s;
+            }
+
+            &:focus::placeholder {
+                opacity: 0;
+            }
+        }
+
+        p {
+            color: #222222;
+            font-size: 28px;
+            line-height: 150%;
+            margin-bottom: 15px;
+            text-align: center;
+
+            span {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 150%;
+                margin-left: 30px;
+                text-decoration-line: line-through;
+                color: #777777;
+            }
+
+            b {
+                color: #EC5120;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 150%;
+                margin-left: 15px;
+            }
+        }
+
+        button {
+            background: linear-gradient(87.59deg, #3B7AC6 1.98%, #4194F7 97.95%);
+            box-shadow: 0px 8px 25px -6px rgba(33, 73, 120, 0.2);
+            border-radius: 2px;
+            border: none;
+            width: 100%;
+            padding: 16px 88px 16px 45px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 150%;
+            text-transform: uppercase;
+            position: relative;
+            color: #FFFFFF;
+            transition: .4s;
+
+            &:after {
+                content: '';
+                position: absolute;
+                width: 33px;
+                height: 16px;
+                background-image: url(../img/svg/Arrow_Left_XL.svg);
+                right: 20%;
+                top: 50%;
+                transform: translateY(-50%);
+                transition: .4s;
+            }
+
+            &:hover {
+                filter: brightness(90%);
+
+                &:after {
+                    right: 15%;
+                }
+            }
+        }
+    }
+}
+
+// contacts section -------------------------------------------------------
+.contacts {
+    position: relative;
+}
+
+.contacts__map {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    max-height: 520px;
+
+    img {
+        width: 100%;
+        background-size: cover;
+        transition: .5s;
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.05);
+        }
+    }
+}
+
+.contacts__box {
+    position: absolute;
+    top: -100px;
+    left: 0;
+
+    &-content {
+        padding: 60px;
+        width: 500px;
+        height: 560px;
+        background: #F8F8F8;
+    }
+
+    &-title h2 {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 140%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        color: #222222;
+    }
+}
+
+.contacts__field {
+    &+& {
+        margin-top: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #222222;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+//  RESPONSIVE ----------------------------- //
+
+@media(max-width: 1600.8px) {
+    .contacts__box-title h2 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .contacts__box-content {
+        padding: 40px;
+        height: 500px;
+    }
+    .contacts__box {
+        top: -50px;
+    }
+    .consultation__content {
+    
+        h3,
+        h4,
+        h5 {
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+    
+        p {
+            font-size: 16px;
+    
+            &+p {
+                margin-top: 10px;
+            }
+    
+            &:last-of-type {
+                margin-bottom: 20px;
+            }
+        }
+    
+        h2 {
+            font-size: 26px;
+        }
+    }
+    .consultation__title h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    .testimonials__title h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .testimonials__item-top {
+        margin-bottom: 10px;
+    }
+
+    .ebook__form h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .consultation {
+        padding: 80px 0 180px;
+    }
+
+    .info {
+        padding: 100px 0 150px;
+    }
+
+    .treatment__content h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .info__content h2:not(:first-child) {
+        margin-top: 20px;
+    }
+
+    .whatis__content,
+    .info__content {
+        padding: 0;
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        h3,
+        h4 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+    }
+
+
+    .advantages__item p {
+        font-size: 14px;
+    }
+
+    .welcomescreen {
+        padding: 110px 0 60px;
+    }
+
+    .welcomescreen__content-box h1 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .welcomescreen__content-box {
+        margin-bottom: 35px;
+    }
+}
+
+
+
+@media(max-width: 1500px) {
+    .contacts__map img {
+        height: 480px;
+        object-fit: cover;
+    }
+    .testimonials__item {
+        max-width: 420px;
+        padding: 20px 25px;
+    }
+}
+
+@media(max-width: 1399.8px) {
+    .ebook {
+        padding: 80px 0 20px;
+    }
+
+    .ebook__form h2 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+    .ebook__img {
+        margin-top: -150px;
+    }
+}
+
+@media(max-width: 1199.8px) {
+    .footer__menu ul{
+        flex-wrap: wrap;
+        >li{
+            width: 50%;
+            margin-bottom: 20px;
+            text-align-last: left;
+        }
+    }
+    .testimonials {
+        padding: 80px 0;
+    }
+
+    .ebook {
+        padding: 60px 0 40px;
+    }
+
+    .ebook__img {
+        margin-top: 0px;
+    }
+
+    .info__content {
+        margin-bottom: 40px;
+        padding: 0 !important;
+    }
+
+    .info {
+        padding: 80px 0 130px;
+    }
+
+    .info .container {
+        max-width: 960px;
+        padding-right: var(--bs-gutter-x, .75rem);
+        padding-left: var(--bs-gutter-x, .75rem);
+    }
+
+    .treatment {
+        padding: 80px 0;
+    }
+
+    .whatis {
+        padding: 80px 0;
+    }
+
+    .advantages__item {
+        height: 260px;
+    }
+
+    .welcomescreen__content-box h1 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 991.8px) {
+    .consultation__content {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .consultation__form {
+        max-width: 100%;
+    }
+    .testimonials__item-content p {
+        font-size: 14px;
+    }
+    .testimonials__item {
+        max-width: 340px;
+        padding: 20px 25px;
+    }
+
+    .ebook__form {
+        margin-bottom: 50px;
+
+        form {
+            max-width: 100%;
+        }
+    }
+
+    .treatment__content p {
+        font-size: 16px;
+    }
+
+    .treatment {
+        padding: 60px 0;
+    }
+
+    .whatis {
+        padding: 60px 0;
+    }
+
+    .whatis,
+    .info {
+        .container {
+            max-width: 720px;
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
+
+        }
+    }
+
+    .whatis__content {
+        margin-bottom: 40px;
+        padding-left: 0 !important;
+    }
+
+    .advantages__item {
+        margin-bottom: 25px;
+    }
+
+    .welcomescreen {
+        padding: 70px 0 60px;
+    }
+
+    .welcomescreen__content {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 767.8px) {
+    .contacts__box-content {
+        width: 520px;
+    }
+    .consultation__content {
+    
+        h3,
+        h4,
+        h5 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    
+        p {
+            font-size: 16px;
+    
+            &+p {
+                margin-top: 10px;
+            }
+    
+            &:last-of-type {
+                margin-bottom: 10px;
+            }
+        }
+    
+        h2 {
+            font-size: 22px;
+        }
+    }
+    .consultation {
+        padding: 60px 0 170px;
+    }
+    .consultation__title h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .testimonials__slider-arrow{
+        img{
+            width: 60px;
+        }
+    }
+    .testimonials {
+        padding: 60px 0;
+    }
+    .info {
+        padding: 80px 0 80px;
+    }
+    .testimonials__title h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .treatment__content h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .whatis__content h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .whatis,
+    .info {
+        .container {
+            max-width: 540px;
+        }
+    }
+
+    .advantages {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width: 575.8px) {
+    .footer {
+        padding: 40px 0;
+    }
+    .footer__menu ul{
+        >li{
+            width: 100%;
+        }
+    }
+    .consultation {
+        padding: 60px 0 130px;
+    }
+    .contacts__box {
+        padding: 0!important;
+        width: 100%;
+    }
+    .contacts__field+.contacts__field {
+        margin-top: 30px;
+    }
+    .contacts__box-title h2 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    .contacts__box-content {
+        width: 95%;
+        height: 450px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+    .consultation__form form button {
+        padding: 15px 90px 15px 30px;
+        font-size: 16px;
+    }
+    .consultation__form form button:after {
+        right: 10%;
+    }
+    .consultation__title h2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .testimonials__item-content p {
+        font-size: 13px;
+    }
+    .testimonials__slide {
+        padding: 0 5px;
+    }
+    .testimonials__item {
+        max-width: 400px;
+    }
+    .ebook {
+        padding: 50px 0 30px;
+    }
+
+    .ebook__form h2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .treatment__btn.blue-btn a {
+        padding: 15px 55px 15px 10px;
+        font-size: 15px;
+
+    }
+
+    .treatment__content h2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .whatis {
+        padding: 40px 0 60px;
+    }
+
+    .whatis__content,
+    .info__content {
+        h2 {
+            font-size: 22px;
+        }
+
+        h3,
+        h4 {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .advantages {
+        padding: 30px 0;
+    }
+
+    .advantages__item {
+        height: 240px;
+        margin-bottom: 15px;
+    }
+
+    .welcomescreen {
+        padding: 40px 0 20px;
+    }
+
+    .welcomescreen__content {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .welcomescreen__content-box p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .welcomescreen__content-box h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
